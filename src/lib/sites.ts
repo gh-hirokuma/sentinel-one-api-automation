@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { ENDPOINT, API_TOKEN } from '../constants/connection'
 
-const getSite = async nextCursor => {
+const getSite = async (nextCursor?: string) => {
   const options = nextCursor
     ? { apiToken: API_TOKEN, limit: 10, cursor: nextCursor }
     : { apiToken: API_TOKEN, limit: 10 }
@@ -27,7 +27,7 @@ const getAllSites = async ({
     data: { sites },
     pagination: { nextCursor },
   },
-}) => {
+}: any): Promise<any> => {
   if (!nextCursor) return sites
   return sites.concat(await getAllSites(await getSite(nextCursor)))
 }

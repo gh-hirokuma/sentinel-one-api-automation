@@ -22,15 +22,6 @@ const getThreat = async (nextCursor?: string) => {
   }
 }
 
-interface GetAllThreatsProps {
-  data: {
-    data: any
-    pagination: {
-      nextCursor: string
-    }
-  }
-}
-
 const getAllThreats = async ({
   data: {
     data,
