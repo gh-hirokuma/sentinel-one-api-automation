@@ -40,6 +40,8 @@ tomo@to-tm.com
 
 https://apne1-1101-nfr.sentinelone.net
 
+eyJ1cmwiOiAiaHR0cHM6Ly9hcG5lMS0xMTAxLW5mci5zZW50aW5lbG9uZS5uZXQiLCAic2l0ZV9rZXkiOiAiZjk0ZTllNGMwYTlhODNmMiJ9
+
 ```
 BuonoというサイトがPoCユーザー向けのテナントなので、他のサイトを御利用ください。
 こっちのサイトにインシデントを発生させる必要があれば、私の方で一台VMをぶら下げておきますので言ってください。
@@ -50,3 +52,12 @@ BuonoというサイトがPoCユーザー向けのテナントなので、他の
 ![Engines](./img/image.png)
 ![Engines](./img/image-pending.png)
 ![Engines](./img/onwrite.png)
+
+```
+脅威名:
+脅威レベル:
+PC名:
+ディレクトリ:
+Virustotalへのリンク:
+対応ステータス:
+```
